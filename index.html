@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html-icon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="1"> <!-- opções de type = 1, A, a, I, i -->
+        <li>Acordar.</li>
+        <li>Ligar para o João.</li>
+        <li>Tomar Café.</li>
+        <li>Escovar os dentes.</li>
+        <li>Ir para a faculdade.</li>
+        <li>Almoçar.</li>
+        <li>Ir para o trabalho.</li>
+        <li>Jogar.</li>
+        <li>Jantar.</li>
+        <li>Dormir.</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square"> <!-- opções de type = disc, circle, square -->
+        <li>Pão.</li>
+        <li>Leite.</li>
+        <li>Tomate.</li>
+        <li>Alface.</li>
+        <li>Manteiga.</li>
+        <li>Arroz.</li>
+        <li>Feijão.</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2> <!-- juntando listas -->
+    <ol>
+        <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+        <li>Novas</li>
+            <ol type="a" start="5">
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>
+    </ol>
+    <h2>Lista dos meus jogos favoritos</h2> <!-- comando ul>li*10 enter   cria lista com a quantia de linhas -->
+    <ul>
+        <li>Steam</li>
+            <ol>
+                <li>Souls Like</li>
+                    <ul type="square">
+                        <li>Elden Ring</li>
+                        <li>Dark Souls (in progress...)</li>
+                    </ul>
+                <li>Rogue Like</li>
+                    <ul type="square">
+                        <li>Hades</li>
+                    </ul>
+            </ol>
+        <li>Epic Games</li>
+            <ol>
+                <li>Rocket League</li>
+                <li>Fortnite</li>
+                    <ul type="square">
+                        <li>Modo sem construção</li>
+                        <li>Modo com construção</li>
+                    </ul>
+            </ol>
+        <li>Riot Games
+            <ol>
+                <li>Valorant</li>
+                    <ul type="square">
+                        <li>Modo Competitivo</li>
+                    </ul>
+                <li>League of Legends</li>
+                    <ul type="square">
+                        <li>Ranqueada</li>
+                        <li>ARAM</li>
+                        <li>TFT</li>
+                    </ul>    
+            </ol>    
+    </ul>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação da interatividade de um site.</dd>
+    </dl>
+</body>
+</html>
